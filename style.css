@@ -1,0 +1,60 @@
+.questionDiv{
+    position: absolute;
+    left: 50%;
+    width: 350px;
+    height: 200px;
+    margin-left: -175px;
+    text-align: center;
+    visibility: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+#startDiv{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+#score{
+    display: inline block;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: 100px;
+}
+#timer{
+    display: inline block;
+    position: relative;
+    float: right;
+    font-family: 'Oswald', sans-serif;
+}
+#startBtn{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    background-color: rebeccapurple;
+}
+
+.btn{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    background-color: rebeccapurple;
+    position: center;
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
+#scoreDisplayDiv{
+    position: absolute;
+}
+#table{
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    font-size: 35px;
+
+}
